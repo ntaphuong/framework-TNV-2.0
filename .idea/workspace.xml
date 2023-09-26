@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework-TNV-2.0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/selenium-server-4.12.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/testng-7.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/Main.java" afterDir="false" />
+    <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="add new framwork POM TNV 2.0">
+      <change afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/reportConfig/AlureReportListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/reportConfig/ExtentReportListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/reportConfig/ReportNGListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/utilities/ExcelConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/utilities/PropertiesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/HomePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/RegisterPageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/tnv2_account/Account_01_Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/AutomationTest/02 - Selenium Webdriver/framework-TNV-2.0/libraries"
+    "last_opened_file_path": "D:/AutomationTest/02 - Selenium Webdriver/framework-TNV-2.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,4 +81,8 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new framwork POM TNV 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new framwork POM TNV 2.0" />
+  </component>
 </project>

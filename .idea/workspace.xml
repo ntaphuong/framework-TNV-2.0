@@ -5,8 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="add new framwork POM TNV 2.0 BasePage">
+      <change afterPath="$PROJECT_DIR$/libraries/testng-7.8.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-api-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-chrome-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-chromium-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-devtools-v114-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-devtools-v115-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-devtools-v116-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-devtools-v85-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-edge-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-firefox-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-grid-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-http-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-ie-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-json-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-manager-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-os-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-remote-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-safari-driver-4.12.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceDocs/selenium-support-4.12.1-sources.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +51,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AutomationTest/02 - Selenium Webdriver/framework-TNV-2.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/AutomationTest/02 - Selenium Webdriver/framework-TNV-2.0/libraries",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AutomationTest\02 - Selenium Webdriver\framework-TNV-2.0\libraries" />
+      <recent name="D:\AutomationTest\02 - Selenium Webdriver\framework-TNV-2.0\sourceDocs" />
     </key>
   </component>
   <component name="RunManager">
@@ -69,7 +89,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new framwork POM TNV 2.0" />
     <MESSAGE value="add new framwork POM TNV 2.0 BasePage" />

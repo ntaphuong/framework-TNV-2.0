@@ -1,8 +1,8 @@
 package commons;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -15,28 +15,21 @@ public class BasePage {
     public void openPageUrl(WebDriver driver, String pageUrl){
         driver.get(pageUrl);
     }
-
     public  String getPageTitle(WebDriver driver){
         return driver.getTitle();
     }
-
     public String getCurrentPageUrl(WebDriver driver){
         return driver.getCurrentUrl();
     }
-
     public String getPageSourceCode(WebDriver driver){
         return driver.getPageSource();
-
     }
-
     public void backToPage(WebDriver driver){
         driver.navigate().back();
     }
-
     public void forwardToPage(WebDriver driver){
         driver.navigate().forward();
     }
-
     public void refreshCurrentPage(WebDriver driver){
         driver.navigate().refresh();
     }
@@ -101,5 +94,62 @@ public class BasePage {
         }
         driver.switchTo().window(parentID);
     }
+    public Set<Cookie> getBrowserCookies(WebDriver driver){
+       return driver.manage().getCookies();
+    }
+    public void setCookies(WebDriver driver, Set<Cookie> cookies){
+        for(Cookie cookie: cookies){
+            driver.manage().addCookie(cookie);
+        }
+    }
+    public void deleteAllCookies(WebDriver driver){
+        driver.manage().deleteAllCookies();
+    }
+    /* Web Elements */
+    public  By getByXpath(String locator){
+        return  By.xpath(locator);
+    }
+    public WebElement getWebElement(WebDriver driver, String locator){
+        return driver.findElement(getByXpath(locator));
+    }
+    public List<WebElement> getListWebElement(WebDriver driver, String locator){
+        return driver.findElements(getByXpath(locator));
+    }
+    public void clickToElement(WebDriver driver, String locator){
+      //  driver.findElement(By.xpath(locator)).click();
+        getWebElement(driver,locator).click();
+    }
+    public void senkeyToElement(WebDriver driver, String locator, String valueToSend){
+        getWebElement(driver,locator).clear();
+        getWebElement(driver,locator).sendKeys(valueToSend);
+    }
+    public String getElementText(WebDriver driver, String locator){
+        return getWebElement(driver,locator).getText();
+    }
+    public void selectItemInDefaultDropdown(WebDriver driver, String locator, String itemValue){
+        new Select(getWebElement(driver,locator)).selectByVisibleText(itemValue);
+    }
+    public String getFirstSelectedTextInDefaultDropdown(WebDriver driver, String locator){
+        return new Select(getWebElement(driver,locator)).getFirstSelectedOption().getText();
+    }
+    public boolean isDefaultDropdownMultiple(WebDriver driver, String locator){
+        return new Select(getWebElement(driver,locator)).isMultiple();
+    }
+    public void selectItemInDropdown(WebDriver driver,String parentCss, String childItemCss, String itemTextExpected){
+        driver.findElement(By.cssSelector(parentCss)).click(); // span#number-button
+        explicitwait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(childItemCss))); // ul#number-menu div
+        List<WebElement> allItems = driver.findElements(By.cssSelector(childItemCss));
+        for(WebElement item : allItems ){
+            // nếu TH element click chọn xong rồi các item còn lại bị mất trong html nữa thì hàm getText() sẽ bị fail
+            String textItem = item.getText();
+            System.out.println("Text item = " + textItem);
+            // 3. Kiểm tra text của từng item thỏa mãn thì click vào
+            if(textItem.equals(itemTextExpected)){
+                item.click();
+                break;
+            }
+        }
+    }
+
 
 }

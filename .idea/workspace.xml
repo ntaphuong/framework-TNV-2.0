@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="add sourcesDocs">
+    <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="update basePage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/AutomationTest/02 - Selenium Webdriver/selenium-webdriver-java-testng",
+    "last_opened_file_path": "D:/AutomationTest/02 - Selenium Webdriver/framework-TNV-2.0",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
 }]]></component>
@@ -76,6 +76,7 @@
     <MESSAGE value="add new framwork POM TNV 2.0" />
     <MESSAGE value="add new framwork POM TNV 2.0 BasePage" />
     <MESSAGE value="add sourcesDocs" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sourcesDocs" />
+    <MESSAGE value="update basePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="update basePage" />
   </component>
 </project>

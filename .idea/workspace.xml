@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="update basePage">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_23_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_4_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/BasePageUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/BrowserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/GlobalConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/MethodListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/commons/VerificationFailures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libLog4j2/log4j-api-2.23.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libLog4j2/log4j-core-2.23.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/TNV5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/HomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/RegisterPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/RegisterPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/reportConfig/AlureReportListerner.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportConfigs/AlureReportListerner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/reportConfig/ExtentReportListerner.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportConfigs/ExtentReportListerner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/reportConfig/ReportNGListerner.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/reportConfigs/ReportNGListerner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-TNV-2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-TNV-2.0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/HomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/RegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/RegisterPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/selenium-server-4.12.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/selenium-server-4.19.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/testng-7.8.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/testng-7.8.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/testng-7.9.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +56,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AutomationTest/03 - Java Hybrid Framework/hybrid-nopcommerce-framework&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.spelling&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/Tai lieu Trang Nguyen/Phòng QA/Automation test/framework-TNV-2.0/libraries",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tai lieu Trang Nguyen\Phòng QA\Automation test\framework-TNV-2.0\libraries" />
+      <recent name="D:\Tai lieu Trang Nguyen\Phòng QA\Automation test\framework-TNV-2.0\libLog4j2" />
       <recent name="D:\AutomationTest\02 - Selenium Webdriver\framework-TNV-2.0\libraries" />
       <recent name="D:\AutomationTest\02 - Selenium Webdriver\framework-TNV-2.0\sourceDocs" />
     </key>
@@ -71,6 +98,17 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new framwork POM TNV 2.0" />
     <MESSAGE value="add new framwork POM TNV 2.0 BasePage" />

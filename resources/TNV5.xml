@@ -7,8 +7,8 @@
 <!--        <listener class-name="reportConfigs.AllureListener"/>-->
 
     </listeners>
-    <parameter name="userUrl" value="https://demo.nopcommerce.com/"/>
-    <parameter name="adminUrl" value="https://admin-demo.nopcommerce.com/"/>
+    <parameter name="userUrl" value="https://trangnguyen.edu.vn/"/>
+<!--    <parameter name="adminUrl" value="https://admin-demo.nopcommerce.com/"/>-->
     <test name="Run on Firefox browser">
         <parameter name="browser" value="firefox"/>
         <classes>

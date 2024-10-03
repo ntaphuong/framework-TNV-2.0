@@ -45,7 +45,7 @@ public class BaseTest {
             default:
                 throw new RuntimeException("Browser Name is not valid");
         }
-        driver.get("https://demo.nopcommerce.com/");
+        driver.get("https://trangnguyen.edu.vn/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         return driver;
     }

@@ -6,6 +6,7 @@ package commons;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,6 +17,7 @@ import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
 import java.time.Duration;
+import java.util.Locale;
 import java.util.Random;
 
 public class BaseTest {
@@ -65,6 +67,7 @@ public class BaseTest {
                 throw new RuntimeException("Browser Name is not valid");
         }
         driver.get(url);
+        driver.manage().window().setPosition(new Point(0,0));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         return driver;
     }
@@ -133,4 +136,27 @@ public class BaseTest {
             System.out.print(e.getMessage());
         }
     }
+//    protected void closeBrowserDriver(){
+//        String cmd = null;
+//        try{
+//            String osName = System.getProperty("os.name").toLowerCase();
+//            log.info("OS name = " + osName);
+//            String driverInstanceName = driver.toString().toLowerCase();
+//            log.info("Driver instance name = " + driverInstanceName);
+//
+//            String browserDriverName = null;
+//            if(driverInstanceName.contains("chrome")){
+//                browserDriverName = "chromedriver";
+//            } else if(driverInstanceName.contains("firefox")){
+//                browserDriverName = "geckodriver";
+//            }else if(driverInstanceName.contains("edge")){
+//                browserDriverName = "msedgedriver";
+//            } else if(driverInstanceName.contains("opera")){
+//                browserDriverName = "operadriver";
+//            } else{
+//                browserDriverName = "safaridriver";
+//            }
+//            log.info("Browser driver name = " + browserDriverName);
+//        }
+//    }
 }

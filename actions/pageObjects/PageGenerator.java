@@ -21,6 +21,7 @@ public class PageGenerator {
         return new UserAboutMePO(driver);
     }
     public static UserHomePO getUserHomePage(WebDriver driver){
+        System.out.println("Title Portal: "+driver.getTitle());
         return new UserHomePO(driver);
     }
     public static UserNewsPO getUserNewsPage(WebDriver driver){

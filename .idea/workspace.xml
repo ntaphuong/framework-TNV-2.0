@@ -5,35 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="update build framework">
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/courses/UserCoursePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserAboutMePO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserNewsPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/userInfomation/UserChangePasswordPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/pageObjects/users/userInfomation/UserEditInformationPO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/cources/UserCourcesPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserAboutMePageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserHomePageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserNewsPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/userInfomation/UserChangePasswordPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/userInfomation/UserEditInfomationPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/users/User_01_Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/users/User_02_Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/users/portal/User_Portal_01_HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/users/portal/User_Portal_02_AboutMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/users/portal/User_Portal_03_News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/commons/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserHomePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/RegisterPageObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/HomePageUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/RegisterPageUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/TNV5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/TNV5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/users/TC_001_Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserHomePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserHomePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserHomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserHomePageUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/users/User_01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/users/User_01_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/users/User_02_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/users/User_02_Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +58,7 @@
       <recent name="D:\AutomationTest\02 - Selenium Webdriver\framework-TNV-2.0\sourceDocs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.D:/Tai lieu Trang Nguyen/Phòng QA/Automation test/framework-TNV-2.0/resources/TNV5.xml">
     <configuration name="Account_01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="framework-TNV-2.0" />
       <extension name="coverage">
@@ -95,8 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/Tai lieu Trang Nguyen/Phòng QA/Automation test/framework-TNV-2.0/resources/TNV5.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="framework-TNV-2.0" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/resources/TNV5.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Tai lieu Trang Nguyen/Phòng QA/Automation test/framework-TNV-2.0/resources/TNV5.xml" />
         <item itemvalue="TestNG.Account_01_Register" />
       </list>
     </recent_temporary>

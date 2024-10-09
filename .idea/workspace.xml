@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="update build framework">
+    <list default="true" id="b3e16396-5ba8-4087-85fa-07e88bdc3eb8" name="Changes" comment="update login and register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/PageGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserLoginPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/UserRegisterPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserHomePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/pageObjects/users/portal/UserHomePO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserLoginPageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/UserRegisterPageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserHomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/pageUIs/users/portal/UserHomePageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/users/User_01_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/users/User_01_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/users/User_02_Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/users/User_02_Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +103,7 @@
     <MESSAGE value="add sourcesDocs" />
     <MESSAGE value="update basePage" />
     <MESSAGE value="update build framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="update build framework" />
+    <MESSAGE value="update login and register" />
+    <option name="LAST_COMMIT_MESSAGE" value="update login and register" />
   </component>
 </project>

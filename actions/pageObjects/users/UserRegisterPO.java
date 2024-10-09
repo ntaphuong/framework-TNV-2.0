@@ -12,7 +12,22 @@ public class UserRegisterPO extends BasePage {
     }
 
     public void enterToFullNameTextbox(String fullName) {
+        waitForElementClickable(driver, UserRegisterPageUI.FULLNAME_TEXTBOX);
+        sendKeyToElement(driver, UserRegisterPageUI.FULLNAME_TEXTBOX,fullName);
+    }
+
+    public void enterToUserNameTextbox(String username) {
         waitForElementClickable(driver, UserRegisterPageUI.USERNAME_TEXTBOX);
-        sendKeyToElement(driver, UserLoginPageUI.USERNAME_TEXTBOX,fullName);
+        sendKeyToElement(driver, UserRegisterPageUI.USERNAME_TEXTBOX,username);
+    }
+
+    public void enterToPassWordTextbox(String password) {
+        waitForElementClickable(driver, UserRegisterPageUI.PASSWORD_TEXTBOX);
+        sendKeyToElement(driver, UserRegisterPageUI.PASSWORD_TEXTBOX,password);
+    }
+
+    public void enterToConfirmPasswordTextbox(String confirmPassword) {
+        waitForElementClickable(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX);
+        sendKeyToElement(driver, UserRegisterPageUI.CONFIRM_PASSWORD_TEXTBOX,confirmPassword);
     }
 }

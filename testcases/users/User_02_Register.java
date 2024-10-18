@@ -25,17 +25,13 @@ public class User_02_Register extends BaseTest {
         // Mở URL lên, qua HomePage
         homePage = PageGenerator.getUserHomePage(driver);
         fullName = "Nguyễn Thị Ánh Phượng";
-        username = "phuongtest1";
+        username = "phuongauto" + generateRandomNumber();
         password = "12345678";
         confirmPassword = "12345678";
         grade = "Khối 1";
         province = "Hà Nội";
         district = "Cầu Giấy";
         school = "Trường tiểu học Harvard";
-        className = "1";
-        phoneNumber = "0396850623";
-        email = "phuong@gmail.com";
-        address = "Golden Palace";
 
     }
     @Test
@@ -47,17 +43,18 @@ public class User_02_Register extends BaseTest {
         registerPage.enterToPassWordTextbox(password);
         registerPage.enterToConfirmPasswordTextbox(confirmPassword);
         registerPage.selectGradeDropdown(grade);
-        registerPage.clicktoMaleCheckbox();
+        registerPage.clickToMaleCheckbox();
         registerPage.clickToContinueButton();
         registerPage.selectProvinceDropdown(province);
         registerPage.selectDistrictDropdown(district);
         registerPage.selectSchoolDropdown(school);
-        registerPage.selectClassDropdown(className);
-        registerPage.enterToPhoneNumberTextbox(phoneNumber);
-        registerPage.enterToEmailTextbox(email);
-        registerPage.enterToAdressTextbox(address);
+//        registerPage.selectClassDropdown(className);
+//        registerPage.enterToPhoneNumberTextbox(phoneNumber);
+//        registerPage.enterToEmailTextbox(email);
+//        registerPage.enterToAdressTextbox(address);
         registerPage.clickToConditionCheckbox();
         registerPage.clickToFinishRegisterButton();
+        Assert.assertEquals(registerPage.getRegistrationSuccessfulTextBoxValue(),"Đăng ký tài khoản thành công");
 
     }
 

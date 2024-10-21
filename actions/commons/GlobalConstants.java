@@ -8,7 +8,7 @@ public class GlobalConstants {
     public static final String JAVA_VERSION =  System.getProperty("java.version");
 
     // Wait Infor
-    public static final long SHORT_TIMEOUT = 10;
+    public static final long SHORT_TIMEOUT = 5;
     public static final long LONG_TIMEOUT = 30;
     // Browser Logs / Extension
     public static final String BROWSER_LOG_PATH = PROJECT_PATH + SEPARATOR+ "browserLogs"+ SEPARATOR;

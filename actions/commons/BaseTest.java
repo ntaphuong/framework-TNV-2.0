@@ -49,6 +49,7 @@ public class BaseTest {
         }
         driver.get("https://trangnguyen.edu.vn/");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().window().fullscreen();
         return driver;
     }
     protected WebDriver getBrowserDriver(String browserName, String url){
@@ -69,6 +70,7 @@ public class BaseTest {
         driver.get(url);
         driver.manage().window().setPosition(new Point(0,0));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().window().fullscreen();
         return driver;
     }
 

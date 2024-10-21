@@ -25,7 +25,8 @@ public class User_02_Register extends BaseTest {
         // Mở URL lên, qua HomePage
         homePage = PageGenerator.getUserHomePage(driver);
         fullName = "Nguyễn Thị Ánh Phượng";
-        username = "phuongauto" + generateRandomNumber();
+       // username = "phuongauto" + generateRandomNumber();
+        username = "phuongauto1";
         password = "12345678";
         confirmPassword = "12345678";
         grade = "Khối 1";

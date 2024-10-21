@@ -226,11 +226,32 @@ public class BasePage {
             getElement(driver,castParameter(locator,restParameter)).click();
         }
     }
+    // Implicit Wait:
+    // driver.manage().timeouts().implicitWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
+    // DK 1- Element có trong HTML, có trên UI, mong đợi hiển thị và trả về true
+    // DK 2 - Element có trong HTML, ko có trên UI mong đợi không hiển thị và trả về false
+    // DK 3 - Element ko có trong HTML (non-present) và ko có trên  UI, mong đợi ko hiển thị và trả về false
+    public void overideGlobalTimeout(WebDriver driver, long timeInSecond){
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeInSecond));
+    }
     public boolean isElementDisplay(WebDriver driver, String locator){
-        return getElement(driver,locator).isDisplayed();
+        return getElement(driver,locator).isDisplayed(); // getElement chỉ tìm được nếu có trong HTML
     }
     public boolean isElementDisplay(WebDriver driver, String locator, String... resParameter){
         return getElement(driver,castParameter(locator,resParameter)).isDisplayed();
+    }
+    public boolean isElementUnDisplay(WebDriver driver, String locator){
+        overideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
+        List<WebElement> elements = getListElement(driver, locator);
+        // Vòng đời của implicitlyWait timeout là global, nên nếu ko set lại thì tất cả các thằng sau đều chạy vs timeout như vậy
+        overideGlobalTimeout(driver, GlobalConstants.LONG_TIMEOUT);
+        if(elements.size()== 0) {//Case 3: element not displayed (non - present))
+            return true;
+        } else if(elements.size() > 0 && !elements.get(0).isDisplayed()) { // Case 2: element not displayed (present)
+            return true;
+        }  else{ // Case 1: element displayed (visible)
+            return false;
+        }
     }
     public boolean isElementEnabled(WebDriver driver, String locator) {
         return getElement(driver, locator).isEnabled();

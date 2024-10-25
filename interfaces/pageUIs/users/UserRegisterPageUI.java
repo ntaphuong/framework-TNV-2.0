@@ -6,6 +6,8 @@ public class UserRegisterPageUI {
     public static final String PASSWORD_TEXTBOX = "XPATH=//input[@name='password']";
     public static final String CONFIRM_PASSWORD_TEXTBOX = "XPATH=//input[@name='confirmPassword']";
     public static final String GRADE_DROPDOWN_LIST = "XPATH=//div[text()='Khối']/parent::label/preceding-sibling::input";
+    public static final String GRADE_DROPDOWN_LIST_ELEMENT = "XPATH=//div[@data-trigger='ComboBox']/div[@role='listbox']";
+    public static final String GRADE_DROPDOWN_ELEMENT = "XPATH=//div[@role='listbox']//span[1]";
     public static final String FEMALE_CHECKBOX = "XPATH=//label[contains(text(),'Nữ')]//*[name()='svg']//*[name()='path' and contains(@class,'tn-rounded')]";
     public static final String CONTINUE_BUTTON = "XPATH=//button[text()='Tiếp tục']";
     public static final String PROVINCE_DROPDOWN_LIST = "XPATH=//input[@id='react-aria6896697757-:r1a:']";

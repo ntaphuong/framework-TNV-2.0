@@ -32,7 +32,8 @@ public class UserRegisterPO extends BasePage {
 
     public void selectGradeDropdown(String grade) {
         waitForElementClickable(driver,UserRegisterPageUI.GRADE_DROPDOWN_LIST);
-        selectItemInDropdown(driver,UserRegisterPageUI.GRADE_DROPDOWN_LIST,grade);
+        clickToElement(driver,UserRegisterPageUI.GRADE_DROPDOWN_LIST);
+        selectItemInCustomDropdown(driver, UserRegisterPageUI.GRADE_DROPDOWN_LIST_ELEMENT,UserRegisterPageUI.GRADE_DROPDOWN_ELEMENT,grade);
     }
 
     public void clickToMaleCheckbox() {

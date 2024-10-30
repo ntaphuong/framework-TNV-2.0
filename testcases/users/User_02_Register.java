@@ -26,7 +26,7 @@ public class User_02_Register extends BaseTest {
         homePage = PageGenerator.getUserHomePage(driver);
         fullName = "Nguyễn Thị Ánh Phượng";
        // username = "phuongauto" + generateRandomNumber();
-        username = "phuongauto1";
+        username = "phuongauto2";
         password = "12345678";
         confirmPassword = "12345678";
         grade = "Khối 1";
@@ -39,6 +39,7 @@ public class User_02_Register extends BaseTest {
     public void User_TC_01_Register_Success(){
         loginPage = homePage.openLoginPage();
         registerPage = homePage.clickToRegisterLink();
+        registerPage.clickToAddPopup();
         registerPage.enterToFullNameTextbox(fullName);
         registerPage.enterToUserNameTextbox(username);
         registerPage.enterToPassWordTextbox(password);

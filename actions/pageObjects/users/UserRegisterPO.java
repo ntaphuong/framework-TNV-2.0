@@ -32,8 +32,7 @@ public class UserRegisterPO extends BasePage {
 
     public void selectGradeDropdown(String grade) {
         waitForElementClickable(driver,UserRegisterPageUI.GRADE_DROPDOWN_LIST);
-        clickToElement(driver,UserRegisterPageUI.GRADE_DROPDOWN_LIST);
-        selectItemInCustomDropdown(driver, UserRegisterPageUI.GRADE_DROPDOWN_LIST_ELEMENT,UserRegisterPageUI.GRADE_DROPDOWN_ELEMENT,grade);
+        selectItemInCustomDropdown(driver, UserRegisterPageUI.GRADE_DROPDOWN_LIST,UserRegisterPageUI.GRADE_DROPDOWN_ELEMENT,grade);
     }
 
     public void clickToMaleCheckbox() {
@@ -43,23 +42,25 @@ public class UserRegisterPO extends BasePage {
     }
 
     public void clickToContinueButton() {
-        waitForElementClickable(driver, UserRegisterPageUI.CONTINUE_BUTTON);
+      //  waitForElementClickable(driver, UserRegisterPageUI.CONTINUE_BUTTON);
+        sleepInSeconds(3);
+        waitForElementVisible(driver, UserRegisterPageUI.CONTINUE_BUTTON);
         clickToElement(driver, UserRegisterPageUI.CONTINUE_BUTTON);
     }
 
     public void selectProvinceDropdown(String province) {
         waitForElementClickable(driver,UserRegisterPageUI.PROVINCE_DROPDOWN_LIST);
-        selectItemInDropdown(driver,UserRegisterPageUI.PROVINCE_DROPDOWN_LIST,province);
+        selectItemInCustomDropdown(driver, UserRegisterPageUI.PROVINCE_DROPDOWN_LIST,UserRegisterPageUI.PROVINCE_DROPDOWN_ELEMENT,province);
     }
 
     public void selectDistrictDropdown(String district) {
         waitForElementClickable(driver,UserRegisterPageUI.DISTRICT_DROPDOWN_LIST);
-        selectItemInDropdown(driver,UserRegisterPageUI.DISTRICT_DROPDOWN_LIST,district);
+        selectItemInCustomDropdown(driver, UserRegisterPageUI.DISTRICT_DROPDOWN_LIST,UserRegisterPageUI.DISTRICT_DROPDOWN_ELEMENT,district);
     }
 
     public void selectSchoolDropdown(String school) {
         waitForElementClickable(driver,UserRegisterPageUI.SCHOOL_DROPDOWN_LIST);
-        selectItemInDropdown(driver,UserRegisterPageUI.SCHOOL_DROPDOWN_LIST,school);
+        selectItemInCustomDropdown(driver, UserRegisterPageUI.SCHOOL_DROPDOWN_LIST,UserRegisterPageUI.SCHOOL_DROPDOWN_ELEMENT,school);
     }
 
     public void clickToConditionCheckbox() {
@@ -77,5 +78,10 @@ public class UserRegisterPO extends BasePage {
         waitForElementVisible(driver, UserRegisterPageUI.REGISTRATION_SUCCESSFUL_TEXTBOX);
         return getElementAttribute(driver, UserRegisterPageUI.REGISTRATION_SUCCESSFUL_TEXTBOX,"value");
 
+    }
+
+    public void clickToAddPopup() {
+        waitForElementVisible(driver, UserRegisterPageUI.ADD_POPUP);
+        clickToElement(driver,UserRegisterPageUI.ADD_POPUP);
     }
 }
